@@ -53,9 +53,7 @@
 .nav_optionbar{
 margin: 0 15px;
 }
-.nav_text{
- 
-}
+
 .nav_contents{
     background-color: black;
     border: none;
@@ -344,9 +342,6 @@ display: inline-block;
     width: 100%;
     font-size: 35px;
     text-align: center;
-}
-.sales_text{
-    
 }
 .sales_sub{
 font-size:15px;

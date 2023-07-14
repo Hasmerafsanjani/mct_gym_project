@@ -1,0 +1,748 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* First yellow box  */
+.yellow_bar{
+    height:50px;
+    background-color: #ffe400;
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* Nav bar  */
+.nav_bar{
+    position: sticky;
+    display: flex;
+    top: 0px;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    justify-content:space-around;
+    z-index: 100;
+}
+
+.logo{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    margin-top: 5px;
+
+}
+.logo_image{
+    background-image:url("https://goldsgym.in/assets/images/logo-pink.png");
+    height:60px;
+    width:60px;
+    background-size: cover;
+    font-size: 0.74rem
+}
+.nav_option{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+
+}
+.nav_optionbar{
+margin: 0 15px;
+}
+.nav_text{
+ 
+}
+.nav_contents{
+    background-color: black;
+    border: none;
+    color: aliceblue;
+    font-size: 15px;
+    margin:0 5px;
+}
+.nav_box1{
+    height: 35px;
+    width: 90px;
+    color: yellow;
+    background-color: black;
+    border: 2px solid yellow;
+    margin-right: 5px;
+    text-align: center;
+    padding:5px;
+    font-size: 15px;
+}
+.nav_box2{
+    margin-left: 5px;
+    height: 35px;
+    width: 90px;
+    color: black;
+    background-color: rgb(255, 217, 0);
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.hero_image{
+    width: 100%;
+    height: 80%;
+    /* padding: 0; */
+    object-fit: contain;
+    max-width: 100%;
+}
+.hero_content2{
+    height: 250px;
+    width: 100%;
+background-color: white;
+margin:auto;
+}
+
+.content{
+    height:70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.first_text{
+ font-size: 36px;
+
+}
+.second_text{
+    font-size: 36px;
+    color: #ffe400;
+}
+
+/* hero box part  */
+.hero_boxes{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+
+}
+.hero_second{
+    margin-bottom: 25px;
+}
+.box{
+    height: 170px;
+    width:125px;
+    display: inline-block;
+    margin: 5px 25px ;
+
+
+}
+.blace_icons{
+    color: #ffe400;
+    width: 100%;
+    height: 80%;
+    /* padding: 0; */
+    object-fit: contain;
+    /* max-width: 100%; */
+    opacity: .65;
+    padding: 25px;
+}
+.uder_icon_text{
+    width: 100%;
+    font-family: icomoon,sans;
+    font-weight: 900;
+   opacity: .65;
+   font-size: 16px;
+   text-align: center;
+}
+.app_section{
+    height: 280px;
+    width: 100%;
+background-image: url("https://goldsgym.in/assets/frontend/css/workbaner.jpg");
+}
+.image_part{
+    height: 280px;
+    width:100%;
+    background-color: rgba(3, 58, 97, 0.76);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.text_part{
+    height: 280px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0  80px ;
+
+    
+}
+.download{
+    text-align: left;
+    font-size:40px;
+    color: #ffe400;
+
+}
+.app_subtitle{
+    text-align: left;
+    color: #ffe400;
+}
+.botton_part{
+    height: 35px;
+    width: 10rem;
+    border: 1px solid yellow;
+    background-color:transparent;
+    color: yellow;
+    text-align: center;
+    padding:7px;
+    margin-right: 80px;
+}
+/* brand sectiont and logo  */
+.brands_section{
+    height: 17.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.brand_image{
+    height: 115px;
+    width: 350px;
+    padding: 5px;
+    margin: auto;
+}
+/* Offer sectin  */
+.pre_download{
+    font-size: 60px;
+    color: #ffe400;
+    font-weight: bolder;
+    padding: 0px 50px;
+}
+.offer_section{
+    height: 280px;
+    width: 100%;
+background-image: url("https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80");
+}
+.signup_botton{
+    height: 35px;
+    width: 10rem;
+    border: 1px solid yellow;
+    background-color:transparent;
+    color: yellow;
+    text-align: center;
+    padding:7px;
+    margin-right: 80px;
+}
+.text_offer{
+    height: 280px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0  80px ;
+
+    
+}
+.buygold{
+    text-align: left;
+    font-size:40px;
+    color: #ffe400;
+
+}
+.offer_subtitle{
+    text-align: left;
+    color: #ffe400;
+}
+.offer_background{
+    height: 280px;
+    width:100%;
+    background-color: rgba(3, 58, 97, 0.76);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+
+/* youtube section  */
+
+
+.youtube_section{
+    height:650px;
+    margin-top: 70px;
+    display: flex;
+   justify-content:space-between;
+
+}
+.youtube_video{
+    width: 65%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video_frame{
+    width:80%;
+     height:90%;
+     margin: 15px 0 0 20px;
+
+}
+.video_text{
+    font-size: 40px;
+text-align: center;
+margin: 20px 0;
+
+}
+.latest{
+    color: rgb(255, 228, 73);
+display: inline-block;
+}
+.form_text{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.text_inputs{
+    height: 2.5rem;
+    width: 90%;
+    margin: 5% 1%;
+    font-size: 15px;
+    padding: 5px 15px;
+    border: 1px solid rgb(216, 216, 216);
+    box-shadow: 1px 1px 1px 1px rgba(247, 247, 247, 0.2);
+}
+.capta_bar{
+    height:4rem ;
+    width: 80%;
+    margin: 10px;
+    background-color: rgb(227, 233, 233);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.capta_image{
+    height:3rem;
+    width:3rem;
+    margin-right: 15px;
+}
+.captcha{
+    padding: 15px;
+    font-size: 20px;
+}
+.join_button{
+    height: 45px;
+    width: 150px;
+    font-size: 17px;
+    background-color: #ffe400;
+    border: 1px solid black;
+    margin: 30px 15px;
+}
+.form_part{
+    margin: auto;
+    width: 30%;
+}
+.pre_sales{
+    height: 360px;
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+}
+.sales_text{
+    
+}
+.sales_sub{
+font-size:15px;
+text-align: center;
+font-weight:lighter;
+}
+.sels_container{
+    margin: 0 15px;
+    display: flex;
+    flex-wrap: wrap ;
+    padding: 5px 15px;
+
+}
+.sell_box{
+    margin: 15px;
+    border-radius: 10px;
+    height:100px;
+    width: 380px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+}
+.sell_box:hover{
+    border: 5px solid rgb(119, 118, 118);
+}
+.box_text{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.view_more{
+    border: 1px solid black;
+    height: 30px;
+    width:60px ;
+    background-color: #ffe400;
+    font-size:15px ;
+    padding:5px ;
+}
+
+/* comming soon sectin  */
+
+.soon_section{
+    padding:0 0 0 35px;
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+.soon_Heding{
+  
+    color: #ffe400;
+    font-size: 30px;
+    }
+.soon_text{
+    font-size: 30px;
+    color: white;
+}
+.doted{
+    margin-bottom: 20px;
+    color: #ffe400;
+    font-size: 40px;
+}
+.soon_content{
+    color: white;
+    height: 40px;
+    width: 25%;
+    text-align:center;
+    margin: 20px 30px;
+    padding:35px 0 0 0;
+}
+.soon_boxe{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+  
+}
+.soon_color{
+    color: #ffe400;
+}
+.soon_image > img{
+    width: 250px;
+    height: 230px;
+    object-fit: cover;
+    margin: 20px 30px;
+}
+.soon_sub{
+    color: white;
+    font-weight: bolder;
+    margin: 25px;
+}
+
+/* 3 part sectin  */
+.first_part{
+    padding:0 0 0 35px;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.596);
+}
+.three_part_background{
+    position:sticky;
+    top: 20px;
+    background-image:url("https://goldsgym.in/assets/frontend/css/workbaner.jpg");
+    background-attachment:fixed;
+}
+
+.third_part{
+    padding:0 0 0 35px;
+    height: 50%px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(3, 58, 97, 0.76);
+    justify-content: center;
+}
+.know_more{
+    height: 10%;
+    width: 15%;
+    background-color: #ffe400;
+    padding: 15px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+/* section two  */
+
+.white_background{
+    height:70%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+.box_header{
+    height: 580px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+.white_container{
+    margin: 25px;
+    height: 90%;
+    width: 23%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 5px 25px;
+    
+}
+.white_container:hover{
+padding :8px 28px;
+}
+.white_box_content{
+    width: 100%;
+    height: 100%;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.white_heading{
+    padding-top: 50px;
+    width: 60%;
+    height: 100px;
+    font-size: 35px;
+}
+.white_heading > span{
+    color: #ffe400;
+}
+.white_box_text{
+    width: 100%;
+ font-size: 1.1rem;
+ font-weight: bold;
+ margin:10px 0;
+}
+.white_box_content > img{
+height: 100%;
+width: 100%;
+margin: auto;
+object-fit: cover;
+}
+.white_box_content > p{
+color: rgb(71, 71, 71);
+}
+.all_boxes{
+    display: flex;
+}
+
+/* last transparent background  */
+
+.transparent_bg{
+    height: 430px;
+    width: 100%;
+    background-color: rgba(3, 58, 97, 0.76);
+    justify-content: center;
+    padding: 5%;
+}
+.tranas_heading{
+ font-size: 35px;
+ font-weight: bolder;
+ color: white;
+ padding: 0 0 20px 25px;
+}
+.blog_box{
+    height: 80%;
+    width: 30%;
+  display: flex;
+}
+.blog_date{
+    text-align: center;
+    height: 35%;
+    width: 14%;
+    padding:10px 0;
+    background-color: yellow;
+
+}
+.blog_content{
+    height:100%;
+    width:85%;
+    color: white;
+}
+.blog_content > h5{
+    margin: 5px 5px;
+    font-weight: lighter;
+}
+.blog_content > h4{
+    font-weight: lighter;
+    margin: 10px 5px;
+}
+.blog_content > p {
+    font-size: 15px;
+    margin:5px 5px ;
+    font-weight: lighter;
+}
+.blog_content > h3{
+    margin: 20px 5px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.bloge_all{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+} 
+
+/* Testemonial section  */
+
+.Testemonial_sec{
+    width: 100%;
+    height: 550px;
+    background-color: white;
+    color: black;
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icons{
+    color: #ffe400;
+}
+.icons> i:hover{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.test_heading{
+    font-size: 35px;
+    font-weight: bolder;
+    margin: auto;
+    text-align: center;
+}
+.test_subhead{
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.koma_img >img{
+    height: 100px;
+    width: 100px;
+    opacity: .35;
+    object-fit: cover;
+}
+.circle_img >img{
+    height: 150px;
+    width: 150px;
+    opacity: .35;
+    object-fit: cover;
+}
+.quets_line{
+    padding: 10px 10%;
+}
+.qut_auther{
+    font-size: .7rem;
+    padding: 10px;
+}
+.icons{
+    padding: 10px 10px 50px 10px;
+}
+
+/* footer sections  */
+
+.footer_section{
+ background-image: url("https://wallpapers-fenix.eu/full/181201/095807710.jpg");
+    height: 600px;
+    width: 100% 100%;
+    background-size: cover;
+
+    position:relative;
+}
+.footer_content{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+.first_colum{
+    margin-top: 100px;
+    height: 80%;
+    width: 25%;
+}
+.first_colum > h3{
+    color: #ffe400;
+font-size: 25px;
+margin: 20px 0;
+}
+.col_one > a{
+    color: #FDFEFF;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.col_two > a {
+    color: #FDFEFF;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.colbox{
+    display: flex;
+    justify-content: space-between;
+
+}
+.first_colum >p{
+    color: #FDFEFF;
+}
+.first_colum > input{
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+    background: transparent;
+    border: 3px solid white;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.fa-angle-right{
+    position: absolute;
+    font-size: 27px;
+    margin: 10px -23px;
+    height: 26px;
+    width: 21px;
+    background-color: white;
+}
+.social_icons{
+    color: white;
+    font-size:30px;
+}
+.first_colum > hr{
+    margin:  20px 0;
+    size: 1px;
+    color: white;
+    
+}
+.last_footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.70);
+    height: 20%;
+    width: 100%;
+}
+.last_footer > p{
+    color: white;
+    margin: 45px 35px;
+}
+.app_store_image >img{
+    margin:20px 20px;
+}
